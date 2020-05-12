@@ -1,4 +1,4 @@
-compile:
+command:
 	lex myscanner.l
 	yacc -d myscanner.y
 	gcc lex.yy.c y.tab.c -o myscanner
